@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-color: #D9CDF7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #271A45;
+}
+
+.font__lato {
+    font-family: 'Lato';
+}
+
+.font__crimson {
+    font-family: 'Crimson Pro Semibold';
+    font-size: 32px;
+}
+
+.left__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#closeIcon {
+    display: none;
+    cursor: pointer;
+    color: #271A45;
+    width: 18px;
+    height: auto;
+    margin-right: 60px;
+}
+
+img#rotate {
+    width: 33px;
+    height: auto;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+img#sofa {
+    width: 450px;
+    height: auto;
+}
+
+.right__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.flex__container span {
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.flex__container h1 {
+    font-size: 32px;
+}
+
+.flex__container h2 {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.right__content button {
+    font-size: 12px;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid #271A45;
+    border-radius: 25px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.right__content button:hover {
+    background-color: #271A45;
+    color: #FFFFFF;
+}
